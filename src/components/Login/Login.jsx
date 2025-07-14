@@ -157,12 +157,6 @@ const Login = () => {
                 <div className="form-container-login sign-in-container-login">
                     <form className="form-login" action="#">
                         <h1 className="h1-login">Sign in</h1>
-                        <div className="social-container-login">
-                            <a href="#" className="social-login"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#" className="social-login"><i className="fab fa-google-plus-g"></i></a>
-                            <a href="#" className="social-login"><i className="fab fa-linkedin-in"></i></a>
-                        </div>
-                        <span className="span-login">or use your account</span>
                         <input className="input-login" value={email} type="email" placeholder="Email" onChange={(e) => { setEmail(e.target.value) }} />
                         <input className="input-login" value={password} type="password" placeholder="Password" onChange={(e) => { setPassword(e.target.value) }} />
                         <a href="#" className="a-login">Forgot your password?</a>
