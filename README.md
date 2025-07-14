@@ -59,7 +59,7 @@ This command is run in the root of the project where the frontend is located.
 
 ---
 
-### 🛠 Backend
+###  Backend
 
 To start the backend server with nodemon:
 
@@ -72,12 +72,12 @@ Make sure you have the necessary dependencies installed in the backend folder.
 
 ---
 
-## ✅ Requirements
+##  Requirements
 
 - Node.js and npm installed
 - Nodemon installed globally (you can do this with npm install -g nodemon)
 
-## 🧪 Notes
+##  Notes
 
 - The frontend usually runs on http://localhost:3000
 - The backend can run on http://localhost:5000 or another port defined in server.js
