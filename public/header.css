@@ -1,0 +1,51 @@
+.header {
+    background-color: #111;
+    padding: .8rem 0;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 7px -1px rgba(255, 255, 255, 0.1);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+
+.nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-login {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    gap: 1rem;
+    align-items: center;
+}
